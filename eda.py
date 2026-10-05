@@ -6,7 +6,8 @@ def run():
     st.html('''
         <h1 style="text-align:center"> AG News Classification </h1>
         ''')
-    image =  Image.open('news_hero.jpg')
+    
+    image = Image.open('news_hero.jpg')
     st.image(image)
 
     st.markdown('---')
