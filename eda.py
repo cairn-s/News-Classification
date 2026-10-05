@@ -15,7 +15,7 @@ def run():
         <h2 style="text-align:center">Class distribution on train data</h2>
     ''')
 
-    df_train = pd.read_csv('../train.csv', delimiter=',')
+    df_train = pd.read_csv('train.csv', delimiter=',')
     plotted = df_train['Class Index'].value_counts().sort_index()
 
     plotted.index = ['World', 'Sports', 'Business', 'Sci/Tech']
