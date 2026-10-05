@@ -2,6 +2,5 @@ streamlit==1.44.0
 pandas
 pillow
 numpy
-re
 nltk
 tensorflow==2.10.0
